@@ -1,36 +1,36 @@
-.footer{
-  background: #F5F5F5;
+.footer {
+  background: $footer-background;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
-  p{
+  p {
     font-size: 13px;
     line-height: 25px;
-    color: #919191;   
+    color: $footer-text;
   }
-  a{
-    color: #595959;
+  a {
+    color: $footer-link;
   }
-  .footer-manu{
+  .footer-manu {
     padding-bottom: 25px;
-    ul{
+    ul {
       margin: 0px;
       padding: 0px;
-      li{
+      li {
         display: inline-block;
         padding: 0px 20px;
-        a{
+        a {
           display: inline-block;
-          color: #494949;
-          &:hover{
-            color: #000;
+          color: $footer-nav-link;
+          &:hover {
+            color: $black;
           }
         }
       }
     }
   }
-  .copyright{
-    a{
+  .copyright {
+    a {
       font-weight: 600;
     }
   }

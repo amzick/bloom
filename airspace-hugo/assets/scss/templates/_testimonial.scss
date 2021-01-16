@@ -4,13 +4,13 @@
 	.block {
 		h2 {
 			line-height: 27px;
-			color: #5C5C5C;
+			color: $testimonial-header;
 			padding-top: 110px;
 		}
 
 		p {
 			padding-top: 50px;
-			color: #7B7B7B;
+			color: $testimonial-graph;
 		}
 	}
 
@@ -54,14 +54,14 @@
 
 				span {
 					display: block;
-					color: #353241;
+					color: $testimonial-name;
 					font-weight: 600;
 				}
 			}
 		}
 
 		.owl-carousel .owl-pagination div {
-			border: 1px solid #1D1D1D;
+			border: 1px solid $owl-border;
 			border-radius: 500px;
 			display: inline-block;
 			height: 10px;
@@ -70,7 +70,7 @@
 		}
 
 		.owl-carousel .owl-pagination div.active {
-			background: #5C5C5C;
+			background: $owl-background;
 			font-size: 30px;
 			display: inline-block;
 			border: 0px;
@@ -89,6 +89,6 @@
 	}
 
 	span {
-		color: #555;
+		color: $counter-text;
 	}
 }

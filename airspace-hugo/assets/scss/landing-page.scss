@@ -2,8 +2,8 @@ $primary-font: 'Playfair Display',
 serif;
 $secondary-font: 'Poppins',
 serif;
-$light: #fff;
-$primary-color:#655E7A;
+$white: $white;
+$primary-color:$primary-color;
 $secondary-color:#2E7EED;
 
 body {
@@ -62,7 +62,7 @@ a {
 }
 
 .navigation {
-	background: #fff;
+	background: $white;
 	padding: 20px 0;
 
 	.navbar {
@@ -96,7 +96,7 @@ a {
 
 					&:hover,
 					&:focus {
-						color: #000;
+						color: $black;
 						background: transparent;
 					}
 				}
@@ -116,7 +116,7 @@ a {
 
 				&:hover {
 					background: $primary-color;
-					color: $light;
+					color: $white;
 					padding-left: 25px;
 				}
 			}
@@ -167,7 +167,7 @@ a {
 			text-align: center;
 
 			h4 {
-				color: #000;
+				color: $black;
 				margin-top: 0;
 			}
 
@@ -198,7 +198,7 @@ a {
 
 		h4 {
 			font-size: 20px;
-			color: #000;
+			color: $black;
 		}
 
 		p {
@@ -213,7 +213,7 @@ a {
 	background-color: #1A1B1F;
 
 	h2 {
-		color: $light;
+		color: $white;
 		margin-bottom: 30px;
 
 	}
@@ -226,12 +226,12 @@ a {
 	}
 
 	.btn-blue {
-		color: $light;
+		color: $white;
 		background: $primary-color;
 	}
 
 	.btn-gray {
 		background: $secondary-color;
-		color: $light;
+		color: $white;
 	}
 }

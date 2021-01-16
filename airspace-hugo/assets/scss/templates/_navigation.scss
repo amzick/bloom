@@ -1,5 +1,5 @@
 .navigation {
-  background: #fff;
+  background: $white;
   padding: 20px 0;
 
   .navbar-brand {
@@ -32,7 +32,7 @@
 
       > li {
         > a {
-          color: #5c5c5c;
+          color: $header-nav-link;
           padding: 10px 15px;
 
           font : {
@@ -44,7 +44,7 @@
 
           &:hover,
           &:focus {
-            color: #000;
+            color: $black;
             background: transparent;
           }
         }
@@ -63,13 +63,13 @@
 
       a {
         font-weight: normal;
-        color: #808080;
+        color: $dropdown-link;
         padding: 10px 20px;
         @include transition(all, 0.3s, ease);
 
         &:hover {
           background: $primary-color;
-          color: $light;
+          color: $white;
           padding-left: 25px;
         }
       }

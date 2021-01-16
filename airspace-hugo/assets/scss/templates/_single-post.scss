@@ -74,7 +74,7 @@
 
   h3 {
     a {
-      color: #000;
+      color: $black;
     }
   }
 
@@ -95,7 +95,7 @@
 
 
 .single-blog {
-  background-color: #fff;
+  background-color: $white;
   margin-bottom: 50px;
   padding: 20px;
 }
@@ -115,7 +115,7 @@
   padding: 25px 0;
 
   a {
-    color: #000;
+    color: $black;
 
     &:hover {
       color: $primary-color;

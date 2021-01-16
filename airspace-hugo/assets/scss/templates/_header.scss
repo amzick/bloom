@@ -3,7 +3,7 @@
 --*/
 
 header{
-	background: #fff;
+	background: $white;
 	padding: 20px 0;
 	.navbar{
 		margin-bottom: 0px;
@@ -24,7 +24,7 @@ header{
 			  	font-size: 15px;
 			  	font
 			  	&:hover{
-			  		color: #000;
+			  		color: $black;
 			  	}
 			  }
 			}

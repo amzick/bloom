@@ -14,7 +14,7 @@
   }
 
   .block {
-    color: #E3E3E4;
+    color: $hero-header;
     text-align: center;
 
     h1 {
@@ -28,7 +28,7 @@
 
     p {
       margin-bottom: 30px;
-      color: #b9b9b9;
+      color: $hero-graph;
       font-size: 18px;
       line-height: 27px;
       font-weight: 300;
