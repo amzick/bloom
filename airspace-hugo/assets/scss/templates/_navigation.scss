@@ -1,0 +1,123 @@
+.navigation {
+  background: #fff;
+  // background: black;
+  padding: 20px 0;
+
+  .navbar-brand {
+    padding-top: 5px;
+
+    img {
+      margin: 10px 0;
+      width: 380px;
+    }
+  }
+
+  .navbar {
+    background: none;
+    border: 0px;
+    margin-bottom: 0px;
+    min-height: 122px;
+    position: relative;
+
+    .navbar-nav {
+      @include tablet {
+        padding-top: 70px; // sm - tablet
+      }
+      @include desktop-min {
+        position: absolute;
+        top: 60%;
+        right: 0;
+        margin: 0;
+        padding: 0;
+      }
+
+      > li {
+        > a {
+          color: #5c5c5c;
+          padding: 10px 15px;
+
+          font : {
+            weight: 500;
+            size: 14px;
+          }
+
+          text-transform: uppercase;
+
+          &:hover,
+          &:focus {
+            color: #000;
+            background: transparent;
+          }
+        }
+
+        select {
+          margin: 10px 15px;
+        }
+      }
+    }
+
+    .dropdown-menu {
+      border-radius: 0;
+      border: none;
+      left: -5px;
+      box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
+
+      a {
+        font-weight: normal;
+        color: #808080;
+        padding: 10px 20px;
+        @include transition(all, 0.3s, ease);
+
+        &:hover {
+          background: $primary-color;
+          color: $light;
+          padding-left: 25px;
+        }
+      }
+    }
+  }
+}
+
+.nav .open > a {
+  background: transparent;
+}
+
+// ensure nav collapses at 768px, didnt for some reason
+// https://silvawebdesigns.com/how-to-change-the-bootstrap-navbar-breakpoint/
+
+@include tablet {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
