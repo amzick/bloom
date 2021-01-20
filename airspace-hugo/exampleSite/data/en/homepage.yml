@@ -22,12 +22,14 @@ about:
             nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id."
   image : "images/wrapper-img.png"
+  image : "https://dummyimage.com/559x532/f4f5f5/010400.png&text=A:+559x532"
 
 
 ######################### Portfolio ###############################
 portfolio:
   enable : true
   bg_image : "images/featue-bg.jpg"
+  bg_image: "https://dummyimage.com/2560x1564/f4f5f5/010400.png&text=B:+2650x1564"
   title : "WE BELIEVE IN GREAT IDEAS"
   content : "
   Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
@@ -53,7 +55,8 @@ service:
 ############################ call to action ###########################
 cta:
   enable : true
-  bg_image : "images/call-to-action-bg.jpg"
+  # bg_image : "images/call-to-action-bg.jpg"
+  bg_image : "https://dummyimage.com/2141x333/f4f5f5/010400.png&text=C:+2141x333"
   title : "We design delightful digital experiences."
   content : "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
   button:

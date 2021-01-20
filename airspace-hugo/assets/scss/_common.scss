@@ -232,9 +232,11 @@ input[type="tel"] {
 }
 
 .bg-dark {
-  background: #202122;
+  background: $overly-background;
+  h2 {
+    color: $white;
+  }
 }
-
 
 .section {
   padding: 100px 0;
@@ -616,4 +618,8 @@ input[type="tel"] {
   @include desktop {
     position: static;
   }
+}
+
+.todoaz {
+  color: $alert;
 }
