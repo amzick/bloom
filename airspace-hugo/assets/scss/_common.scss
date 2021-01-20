@@ -621,5 +621,8 @@ input[type="tel"] {
 }
 
 .todoaz {
-  color: $alert;
+  color: $alert!important;
+  * {
+    color: $alert!important;
+  }
 }

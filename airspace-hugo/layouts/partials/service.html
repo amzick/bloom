@@ -12,9 +12,25 @@
       {{ range .service_item }}
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <i class="icon {{ .icon }}"></i>
+          <i class="icon {{ .icon }} todoaz"></i>
           <h4>{{ .name | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
+          <p class="todoaz">{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="row">
+      <div class="section-title">
+        <p>{{ .secondary_description | markdownify }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .secondary_service_item }}
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="icon {{ .icon }} todoaz"></i>
+          <h4>{{ .name | markdownify }}</h4>
+          <p class="todoaz">{{ .content | markdownify }}</p>
         </div>
       </div>
       {{ end }}

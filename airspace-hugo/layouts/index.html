@@ -59,7 +59,7 @@
 <section class="feature bg-2" style="background-image: url('{{ .bg_image | absURL}}')">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-6">
+      <div class="col-md-6 col-md-offset-6 todoaz">
         <h2 class="section-subtitle">{{ .title | markdownify }}</h2>
         {{ .content | markdownify }}
         {{ if .button.enable }}
@@ -87,18 +87,24 @@
 {{ end }}
 <!-- /Call to action -->
 
+<!-- Projects -->
+{{ partial "projects.html" }}
+<!-- /Projects -->
+
 {{ if $data.homepage.funfacts.enable }}
 {{ with $data.homepage.funfacts }}
 <!-- Content Start -->
 <section class="testimonial">
   <div class="container">
-    <div class="row">
+    <div class="row todoaz">
+      <!-- fun facts -->
       <div class="section-title text-center">
         <h2>{{ .title | markdownify }}</h2>
         <p>{{ .description | markdownify }}</p>
       </div>
     </div>
-    <div class="row">
+    <!-- testimonials -->
+    <div class="row todoaz">
       <div class="col-md-6">
         <div class="block">
           <ul class="counter-box clearfix">
