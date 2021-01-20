@@ -1,0 +1,12 @@
+.cookie-box {
+  background: $onyx!important;
+
+  #js-cookie-button {
+    background: $btn-bg;
+    &:hover,
+    &:focus {
+      background: $btn-bg--hover!important;
+      // background: transparent;
+    }
+  }
+}

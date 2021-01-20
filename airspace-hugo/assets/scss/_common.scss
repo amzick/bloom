@@ -87,7 +87,8 @@ input[type="tel"] {
   }
 
   &:hover {
-    background: darken($primary-color, 20%);
+    // background: darken($primary-color, 20%);
+    background: $btn-bg--hover;
     color: $white;
   }
 }
@@ -592,7 +593,7 @@ input[type="tel"] {
     right: 0;
     width: 100%;
     height: 100%;
-    background: #1d192c;
+    background: $overly-background;
     opacity: 0.8;
   }
 }

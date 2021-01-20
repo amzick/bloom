@@ -2,7 +2,7 @@
   background: $footer-background;
   text-align: center;
   padding-top: 48px;
-  padding-bottom: 55px;
+  padding-bottom: 84px;
   p {
     font-size: 13px;
     line-height: 25px;
@@ -10,8 +10,13 @@
   }
   a {
     color: $footer-link;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $footer-link--hover;
+    }
   }
-  .footer-manu {
+  .footer-menu {
     padding-bottom: 25px;
     ul {
       margin: 0px;
@@ -22,8 +27,16 @@
         a {
           display: inline-block;
           color: $footer-nav-link;
-          &:hover {
-            color: $black;
+          font : {
+            weight: 500;
+            size: 14px;
+          }
+          text-transform: uppercase;
+
+          &:hover,
+          &:focus,
+          &:active {
+            color: $footer-link--hover;
           }
         }
       }

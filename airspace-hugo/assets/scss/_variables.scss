@@ -1,20 +1,47 @@
+// final theme
+// https://coolors.co/010400-031726-32769a-303535-f4f5f5-ba5a31
+$rich-black: #010400;
+$midnight: #031726;
+$steel: #32769A;
+$onyx: #303535;
+$cultured: #F4F5F5;
+$sinopia: #BA5A31;
+
+// scrap colors
+// bright primary blues 0A5285
+
+// light gray / forms?
+// EAECEC
+
+// whites?
+// F9F7F0 floral white XXX
+
+
 // colors
+$black: #000;
 $white: #fff;
-$primary-color: #655e7a;
+$primary-color: rgba($steel, 1);
 $secondary-color: #1bbb1b;
 $success: #1bbb1b;
-$black: #000;
 $alert: #c7254e;
 $border-color: #dedede;
-$section-title: #666;
+$section-title: rgba($onyx, 1);
 
-// nav
-$header-nav-link: #5c5c5c;
+// fonts
+$header-color: rgba($primary-color, 1);
+$body-bg: rgba($cultured, 1);
+
+// nav and buttons
+$header-nav-link: rgba($onyx, 1); //#5c5c5c;
+$header-nav-link--hover: rgba($sinopia, 1);
+$btn-bg: rgba($steel, 1);
+$btn-bg--hover: rgba($sinopia, 1);
 $dropdown-link: #808080;
 
 // hero
 $hero-header: #E3E3E4;
 $hero-graph: #b9b9b9;
+$overly-background: rgba($midnight, 1); // #1d192c
 
 // feature section
 $feature-link: #8d8f92;
@@ -33,13 +60,15 @@ $twitter: #00aced;
 $social-icon: #2c2c2c;
 
 // footer
-$footer-background: #f5f5f5;
-$footer-text: #919191;
-$footer-link: #595959;
-$footer-nav-link: #494949;
+$footer-background: rgba($midnight,1); //#f5f5f5;
+$footer-text: $white; //#919191;
+$footer-link: $white;//#595959;
+$footer-nav-link: $white;//#494949;
+$footer-link--hover: rgba($sinopia, 1);
 
 // forms
 $form-background: #f6f8fa;
+// $form-background: #EAECEC;
 $form-border: #eef2f6;
 $contact-button-background: #47424c;
 $contact-box-graph-color: #5c5c5c;

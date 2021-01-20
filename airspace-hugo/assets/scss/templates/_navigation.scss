@@ -1,5 +1,5 @@
 .navigation {
-  background: $white;
+  background: $body-bg;
   padding: 20px 0;
 
   .navbar-brand {
@@ -44,7 +44,7 @@
 
           &:hover,
           &:focus {
-            color: $black;
+            color: $header-nav-link--hover;
             background: transparent;
           }
         }

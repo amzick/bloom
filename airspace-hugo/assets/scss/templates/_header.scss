@@ -24,7 +24,8 @@ header{
 			  	font-size: 15px;
 			  	font
 			  	&:hover{
-			  		color: $black;
+						color: $black; // use hover
+						color: #BA5A31;
 			  	}
 			  }
 			}
