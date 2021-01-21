@@ -21,7 +21,7 @@
               {{ end }}
               {{ range ( $categories | uniq ) }}
               <label class="btn btn-sm btn-primary">
-                <input type="radio" name="shuffle-filter" value="{{ . | urlize }}">{{ . | humanize }}
+                <input type="radio" name="shuffle-filter" value="{{ . | urlize }}">{{ . }}
               </label>
               {{ end }}
             </div>
@@ -34,6 +34,7 @@
                 <div class="portfolio-content">
                   <a href="{{ .Params.Image | relURL }}" class="portfolio-popup"><i class="icon ion-search"></i></a>
                   <a class="h3" href="{{ .Permalink }}">{{ .Title }}</a>
+                  <p>{{ .Params.Location }}</p>
                   <p>{{ .Params.Description }}</p>
                 </div>
               </div>
