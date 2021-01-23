@@ -52,11 +52,11 @@ cta:
   enable : true
   # bg_image : "images/call-to-action-bg.jpg"
   bg_image : "https://dummyimage.com/2141x333/f4f5f5/010400.png&text=C:+2141x333"
-  title : "We design delightful digital experiences."
-  content : "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  title : "We are the conduit for making our partners' visions a reality."
+  content : "“No matter how brilliant your mind or strategy, if you're playing a solo game you'll always lose out to a team”<br/>-Reid Hoffman"
   button:
     enable : true
-    label : "Tell Us Your Story"
+    label : "Contact us"
     link : "contact"
 
 ############################# Funfacts ###############################

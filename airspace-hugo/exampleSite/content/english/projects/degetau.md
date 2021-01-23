@@ -3,7 +3,8 @@ title: "Federico DeGetau Federal Bldg and Courthouse"
 location: "San Juan, Puerto Rico"
 description: "Project Management, Site Management - Curtain Wall, Blast Curtain Wall"
 draft: false
-image : "http://via.placeholder.com/1600x900"
+image : "images/buildings/degetau_3582x2015.jpg"
+bg_image : "images/buildings/degetau_3582x2015.jpg"
 category: "Government"
 information:
   # - label : "Client"

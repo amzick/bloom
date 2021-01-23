@@ -4,7 +4,8 @@ location: "Bel-Air, CA"
 description: "Engineering Manager, Site Engineering Manager - Limestone Panels, Metal Panels, Curtain Wall"
 draft: false
 image : "http://via.placeholder.com/1600x900"
-category: "Management"
+bg_image : "https://picsum.photos/1600/900"
+category: "Single Use"
 information:
   # - label : "Client"
   #   info : "Jannie Kelonsky"

@@ -39,11 +39,16 @@
 		&:hover {
 			.portfolio-hover {
 				visibility: visible;
-				opacity: 0.8;
+				opacity: 0.4;
+				background: $white;
+				background: $overly-background;
 			}
 
 			.portfolio-content {
-				transform: translateY(-50%);
+				// transform: translateY(-50%);
+				* {
+					color: red;
+				}
 			}
 		}
 	}
@@ -55,8 +60,8 @@
 		top: 0;
 		left: 0;
 		background: $overly-background;
-		visibility: hidden;
-		opacity: 0;
+		// visibility: hidden;
+		opacity: 0.8;
 		transition: .3s ease;
 	}
 
@@ -64,8 +69,8 @@
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 50%;
-		transform: translateY(-40%);
+		top: 0%;
+		// transform: translateY(-40%);
 		text-align: center;
 		padding: 20px;
 		transition: inherit;

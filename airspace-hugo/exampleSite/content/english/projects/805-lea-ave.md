@@ -3,8 +3,9 @@ title: "805 Lea Avenue"
 location: "Nashville, TN"
 description: "Pre-Construction system design development - Metal Panels"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-category: "Management"
+image : "images/buildings/805-lea_1080x607.jpg"
+bg_image : "images/buildings/805-lea_1080x607.jpg"
+category: "Residential"
 information:
   # - label : "Client"
   #   info : "Jannie Kelonsky"

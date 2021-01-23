@@ -3,8 +3,9 @@ title: "Stony Brook Medical Center"
 location: "Long Island, NY"
 description: "Florensics - Exterior Glazing"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-category: "Consultancy"
+image : "images/buildings/suny_2690x1513.jpg"
+bg_image : "images/buildings/suny_2690x1513.jpg"
+category: "Medical"
 information:
   # - label : "Client"
   #   info : "Jannie Kelonsky"

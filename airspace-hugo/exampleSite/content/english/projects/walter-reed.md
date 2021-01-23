@@ -3,7 +3,8 @@ title: "Walter Reed Medical Center Renovations"
 location: "Bethesda, MD"
 description: "Project Management - Ribbon Windows, Curtain Wall, Insulated Metal Panels"
 draft: false
-image : "http://via.placeholder.com/1600x900"
+image : "images/buildings/walter-reed_2448x1376.jpg"
+bg_image : "images/buildings/walter-reed_2448x1376.jpg"
 category: "Medical"
 information:
   # - label : "Client"

@@ -3,7 +3,8 @@ title: "Talley Center, NC State University"
 location: "Raleigh, NC"
 description: "Project Management - Curtain Wall"
 draft: false
-image : "http://via.placeholder.com/1125x579"
+image : "http://via.placeholder.com/1600x900"
+bg_image : "https://picsum.photos/1600/900"
 category: "Education"
 information:
   # - label : "Client"

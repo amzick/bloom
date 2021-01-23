@@ -4,7 +4,8 @@ location: "Kuala Lumpur, Malaysia"
 description: "Project Management - Manager Engineering Design Team for the SkyBridge - Curtain Wall, Metal Panels"
 draft: false
 image : "http://via.placeholder.com/1600x900"
-category: "Management"
+bg_image : "https://picsum.photos/1600/900"
+category: "Business"
 information:
   # - label : "Client"
   #   info : "Jannie Kelonsky"

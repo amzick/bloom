@@ -61,7 +61,13 @@ $(document).ready(function () {
 		closeOnContentClick: true,
 		midClick: true,
 		fixedContentPos: true,
-		fixedBgPos: true
+		fixedBgPos: true,
+		image: {
+			titleSrc: (item) => {
+				// add caption
+				return item.el[0].dataset.caption;
+			}
+		}
 	});
 
 	//  Count Up

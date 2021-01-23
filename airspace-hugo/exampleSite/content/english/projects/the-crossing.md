@@ -4,7 +4,8 @@ location: "Dallas, TX"
 description: "Pre-Construction system design development – Metal Panels"
 draft: false
 image : "http://via.placeholder.com/1600x900"
-category: "Management"
+bg_image : "https://picsum.photos/1600/900"
+category: "Mixed Use"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

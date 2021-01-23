@@ -3,7 +3,9 @@ title: "Greenville-Spartanburg Airport Renovations"
 location: "Greer, SC"
 description: "Project Management - Metal Panels"
 draft: false
-image : "http://via.placeholder.com/1125x579"
+image : "images/buildings/greenville-spartanburg_1599x899.jpg"
+bg_image : "images/buildings/greenville-spartanburg_1599x899.jpg"
+caption: "Image via Michaeljarvis01 from Wikimedia Commons, <a href='https://creativecommons.org/licenses/by-sa/4.0&gt'>CC BY-SA 4.0</a>"
 category: "Airports"
 information:
   # - label : "Client"

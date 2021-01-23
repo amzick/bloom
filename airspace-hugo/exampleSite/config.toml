@@ -81,9 +81,9 @@ logo_width = "150px"
 description = "This is meta description"
 author = "Themefisher"
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "North Main Street,Brooklyn Australia"
+phone = "919.802-3198"
+email = "edwardabloom@gmail.com"
+address = "119 Loch Bend Lane, Cary, NC 27518"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
@@ -165,7 +165,7 @@ weight = 2
 
 [[Languages.en.menu.main]]
 name = "Services"
-URL = "services"
+URL = "/#services"
 weight = 3
 
 [[Languages.en.menu.main]]

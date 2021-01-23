@@ -3,7 +3,9 @@ title: "International Terminal, O'Hare Airport"
 location: "Chicago, IL"
 description: "Engineering - Curtain Wall"
 draft: false
-image : "http://via.placeholder.com/1125x579"
+image : "images/buildings/ohare_2448x1376.jpg"
+bg_image : "images/buildings/ohare_2448x1376.jpg"
+caption: "Christophe95, <a href='https://creativecommons.org/licenses/by-sa/3.0'>CC BY-SA 3.0</a>, via Wikimedia Commons"
 category: "Airports"
 information:
   # - label : "Client"

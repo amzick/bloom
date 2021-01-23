@@ -3,7 +3,8 @@ title: "Logan Airport"
 location: "Boston, MA"
 description: "Engineering - Curtain Wall"
 draft: false
-image : "http://via.placeholder.com/579x1300"
+image : "http://via.placeholder.com/1600x900"
+bg_image : "https://picsum.photos/1600/900"
 category: "Airports"
 information:
   # - label : "Client"

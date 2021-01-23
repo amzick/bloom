@@ -3,7 +3,8 @@ title: "Nashville Federal Courthouse"
 location: "Nashville, TN"
 description: "Project Management - Metal Panels"
 draft: false
-image : "http://via.placeholder.com/1600x900"
+image : "images/buildings/nashville-courthouse_871x490.jpg"
+bg_image : "images/buildings/nashville-courthouse_871x490.jpg"
 category: "Government"
 information:
   # - label : "Client"

@@ -4,7 +4,8 @@ location: "Weehawken, NJ"
 description: "Florensics - Exterior Façade"
 draft: false
 image : "http://via.placeholder.com/1600x900"
-category: "Consultancy"
+bg_image : "https://picsum.photos/1600/900"
+category: "Residential"
 information:
   # - label : "Client"
   #   info : "Jannie Kelonsky"

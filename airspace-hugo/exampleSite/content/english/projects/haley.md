@@ -4,6 +4,7 @@ location: "Tampa, FL"
 description: "Project Management - Storefront, Metal Panels"
 draft: false
 image : "http://via.placeholder.com/1600x900"
+bg_image : "https://picsum.photos/1600/900"
 category: "Medical"
 information:
   # - label : "Client"

@@ -3,8 +3,9 @@ title: "Federation Tower"
 location: "Moscow, Russia"
 description: "Construction Consultant - Developers Representative, Site, Vendor, Production Facility Inspections, QA/QC Reporting, Mock Up Inspection"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-category: "Consultancy"
+image : "images/buildings/federation-tower_1920x1080.png"
+bg_image : "images/buildings/federation-tower_1920x1080.png"
+category: "Federation"
 information:
   # - label : "Client"
   #   info : "Jannie Kelonsky"
