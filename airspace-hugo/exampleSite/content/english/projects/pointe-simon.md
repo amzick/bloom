@@ -3,8 +3,8 @@ title: "Pointe Simon Business Center"
 location: "Fort-de-France, Martinique"
 description: "Preconstruction services, Curtain Wall system design, specification writing"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/ps_1337x752.png"
+bg_image : "images/buildings/ps_1337x752.png"
 category: "Mixed Use"
 information:
   # - label : "Client"

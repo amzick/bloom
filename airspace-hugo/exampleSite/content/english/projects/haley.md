@@ -3,8 +3,8 @@ title: "James A. Haley Veterans Hospital"
 location: "Tampa, FL"
 description: "Project Management - Storefront, Metal Panels"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/haley_480x269.jpg"
+bg_image : "images/buildings/haley_480x269.jpg"
 category: "Medical"
 information:
   # - label : "Client"

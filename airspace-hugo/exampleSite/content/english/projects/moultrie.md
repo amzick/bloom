@@ -3,8 +3,9 @@ title: "Moultrie Courthouse"
 location: "Washington, DC"
 description: "Project Management - Curtain Wall, Storefront, Blast Curtain Wall" 
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/moultrie_1050x591.jpg"
+bg_image : "images/buildings/moultrie_1050x591.jpg"
+caption: "AgnosticPreachersKid, <a href='https://creativecommons.org/licenses/by-sa/3.0'>CC BY-SA 3.0</a>, via Wikimedia Commons"
 category: "Government"
 information:
   # - label : "Client"

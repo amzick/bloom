@@ -33,7 +33,8 @@
               <div class="portfolio-hover">
                 <div class="portfolio-content">
                   <a href="{{ .Params.Image | relURL }}" class="portfolio-popup" data-caption="{{ .Params.Caption }}"><i class="icon ion-search"></i></a>
-                  <a class="h3" href="{{ .Permalink }}">{{ .Title }}</a>
+                  <!-- <a class="h3" href="{{ .Permalink }}">{{ .Title }}</a> -->
+                  <a class="h3">{{ .Title }}</a>
                   <p>{{ .Params.Location }}</p>
                   <p>{{ .Params.Description }}</p>
                 </div>

@@ -3,8 +3,8 @@ title: "Lerner Institute, Cleveland Clinic"
 location: "Cleveland, OH"
 description: "Project Management - Metal Panels"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/lerner_498x280.jpg"
+bg_image : "images/buildings/lerner_498x280.jpg"
 category: "Medical"
 information:
   # - label : "Client"

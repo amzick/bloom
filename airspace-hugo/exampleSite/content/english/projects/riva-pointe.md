@@ -3,8 +3,9 @@ title: "Riva Pointe Condominiums"
 location: "Weehawken, NJ"
 description: "Florensics - Exterior Façade"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/riva-pointe_1602x901.png"
+bg_image : "images/buildings/riva-pointe_1602x901.png"
+caption: "Walter Burns, <a href='https://creativecommons.org/licenses/by/2.0/'>CC BY 2.0</a>, via Flickr"
 category: "Residential"
 information:
   # - label : "Client"

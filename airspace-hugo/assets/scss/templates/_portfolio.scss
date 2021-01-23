@@ -1,5 +1,6 @@
 .portfolio-work {
 	padding: 80px 0;
+	background: $body-bg;
 
 	.block {
 		.portfolio-menu {
@@ -39,15 +40,17 @@
 		&:hover {
 			.portfolio-hover {
 				visibility: visible;
-				opacity: 0.4;
+				opacity: 0.8;
 				background: $white;
-				background: $overly-background;
+				// background: $overly-background;
 			}
 
 			.portfolio-content {
 				// transform: translateY(-50%);
+				background: $white;
 				* {
-					color: red;
+					color: $steel;
+					color: $sinopia;
 				}
 			}
 		}

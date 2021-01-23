@@ -3,8 +3,9 @@ title: "J. Paul Getty Center"
 location: "Bel-Air, CA"
 description: "Engineering Manager, Site Engineering Manager - Limestone Panels, Metal Panels, Curtain Wall"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/getty_1467x825.png"
+bg_image : "images/buildings/getty_1467x825.png"
+caption: "prayitnophotography, <a href='https://creativecommons.org/licenses/by/2.0/'>CC BY 2.0</a>, via Flickr"
 category: "Single Use"
 information:
   # - label : "Client"

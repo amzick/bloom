@@ -3,8 +3,9 @@ title: "Talley Center, NC State University"
 location: "Raleigh, NC"
 description: "Project Management - Curtain Wall"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/talley_2054-1155.jpg"
+bg_image : "airspace-hugo/exampleSite/static/images/buildings/talley_2054-1155.jpg"
+caption: '<a href="https://commons.wikimedia.org/wiki/File:Talley_Student_Union.JPG">Abbylabar</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons'
 category: "Education"
 information:
   # - label : "Client"

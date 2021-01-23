@@ -3,8 +3,8 @@ title: "The Petronas Towers"
 location: "Kuala Lumpur, Malaysia"
 description: "Project Management - Manager Engineering Design Team for the SkyBridge - Curtain Wall, Metal Panels"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/skybridge_1114x627.jpg"
+bg_image : "images/buildings/skybridge_1114x627.jpg"
 category: "Business"
 information:
   # - label : "Client"

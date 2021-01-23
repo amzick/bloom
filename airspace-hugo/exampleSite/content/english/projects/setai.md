@@ -3,8 +3,9 @@ title: "The Setai Hotel and Residences"
 location: "Miami, FL"
 description: "Florensics - glass rails"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/setai_1599x899.jpg"
+bg_image : "images/buildings/setai_1599x899.jpg"
+caption: '<a href="https://commons.wikimedia.org/wiki/File:The_Setai_Hotel_%26_Residences,_South_Beach,_Miami_Beach,_FL.JPG">Daniel Christensen</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons'
 category: "Residential"
 information:
   # - label : "Client"

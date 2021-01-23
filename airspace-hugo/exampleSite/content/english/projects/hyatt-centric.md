@@ -3,8 +3,8 @@ title: "Hyatt Centric"
 location: "Nashville, TN"
 description: "Pre-Construction system design development – Metal Panels"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/hc_639x359.jpg"
+bg_image : "images/buildings/hc_639x359.jpg"
 category: "Residential"
 information:
   # - label : "Client"

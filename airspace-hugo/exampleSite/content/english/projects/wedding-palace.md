@@ -3,8 +3,9 @@ title: "The Wedding Palace"
 location: "Moscow, Russia"
 description: "Construction Consultant - Developers Representative, Preconstruction development, system design"
 draft: false
-image : "http://via.placeholder.com/1600x900"
-bg_image : "https://picsum.photos/1600/900"
+image : "images/buildings/evolution_1581x889.jpg"
+bg_image : "images/buildings/evolution_1581x889.jpg"
+caption: '<a href="https://commons.wikimedia.org/wiki/File:Moscow,_Krasnopresnenskaya_Embankment_-_Evolution_tower_(30590377323).jpg">Gennady Grachev from Moscow, Russia</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons'
 category: "Mixed Use"
 information:
   # - label : "Client"
