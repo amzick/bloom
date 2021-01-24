@@ -86,7 +86,9 @@ input[type="tel"] {
     }
   }
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     // background: darken($primary-color, 20%);
     background: $btn-bg--hover;
     color: $white;

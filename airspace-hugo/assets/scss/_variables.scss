@@ -24,7 +24,7 @@ $primary-color: rgba($steel, 1);
 $secondary-color: #1bbb1b;
 $success: #1bbb1b;
 $alert: #c7254e;
-$border-color: #dedede;
+$border-color: rgba($midnight, 1); //#dedede;
 $section-title: rgba($onyx, 1);
 
 // fonts
@@ -47,7 +47,7 @@ $overlay-background: rgba($midnight, 1); // #1d192c
 $feature-graph: $white;
 
 // projects
-$project-nav: #333333;
+$project-nav: rgba($onyx, 1); //#333333;
 $project-details-key: #838383;
 $project-details-strong: #313131;
 
@@ -62,7 +62,7 @@ $social-icon: #2c2c2c;
 // footer
 $footer-background: rgba($midnight,1); //#f5f5f5;
 $footer-text: $white; //#919191;
-$footer-link: $white;//#595959;
+$footer-link: $steel;//#595959;
 $footer-nav-link: $white;//#494949;
 $footer-link--hover: rgba($sinopia, 1);
 

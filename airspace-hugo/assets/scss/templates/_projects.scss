@@ -2,6 +2,16 @@
 	padding: 80px 0;
 	background: $body-bg;
 
+	.container {
+		@include tablet-only {
+			width: 100vw;
+		}
+
+		@media (min-width: 1024px) and (max-width: 1199px) {
+			width: 95%;
+		}
+	}
+
 	.block {
 		.portfolio-menu {
 			text-align: center;
@@ -21,6 +31,20 @@
 					margin: 2px;
 					border-radius: 0;
 					@include transition (all, 0.3s, ease);
+
+					&.active,
+					&.focus {
+						background: $btn-bg;
+						color: $white;
+					}
+
+					&:hover,
+					&:active,
+					&:focus {
+						color: $white;
+						background: $btn-bg--hover;
+						border-color: $white;
+					}
 				}
 			}
 		}
@@ -55,6 +79,14 @@
 				}
 			}
 		}
+
+		@include tablet-only {
+			width: 100vw;
+
+			img {
+				width: 100vw;
+			}
+		}
 	}
 
 	&-hover {
@@ -68,9 +100,9 @@
 		opacity: 0.8;
 		transition: .3s ease;
 
-		@include desktop {
-			min-height: 221px;
-		}
+		// @include desktop {
+			// min-height: 221px;
+		// }
 	}
 
 	&-content {
@@ -83,6 +115,7 @@
 		padding: 20px;
 		transition: inherit;
 		height: 100%;
+		max-height: 221px;
 
 		* {
 			color: $white;
@@ -98,6 +131,33 @@
 
 			&.h3 {
 				margin-top: 0;
+			}
+		}
+
+		@include mobile-xs-only {
+			padding: 0;
+			a, p {
+				&.h3 {
+					font-size: 18px;
+				}
+				i {
+					font-size: 20px;
+				}
+				margin: 5px;
+			}
+		}
+
+		@media (min-width: 1024px) and (max-width: 1199px) {
+			// border: 1px solid orange;
+			padding: 5px;
+			a, p {
+				&.h3 {
+					font-size: 18px;
+				}
+				i {
+					font-size: 20px;
+				}
+				margin-bottom: 5px;
 			}
 		}
 	}
@@ -134,3 +194,6 @@
 	}
 }
 
+.shuffle-wrapper {
+	background-color: rgba($midnight,0.8);
+}

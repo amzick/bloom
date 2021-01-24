@@ -1,31 +1,12 @@
 {{ define "main" }}
 
-{{ partial "page-title.html" . }}
-
-{{ $data := index site.Data site.Language.Lang }}
-
-<section class="portfolio-single-page section-sm">
+<section class="page-404">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
-        <img class="img-responsive w-100" src="{{ .Params.Image | relURL }}" alt="">
-      </div>
-      <div class="col-md-4">
-        <div class="project-details todoaz">
-          <h4>Project Details</h4>
-          <ul>
-            {{ range .Params.Information }}
-            <li><span>{{ .label }} :</span> <strong>{{ .info | markdownify }}</strong></li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-md-12">
-        <div class="project-content mt-50 todoaz">
-          {{ .Content }}
-        </div>
+        <h1>404</h1>
+        <h2>Page Not Found</h2>
+        <a href="/" class="btn btn-main"><i class="tf-ion-android-arrow-back"></i> Go Home</a>
       </div>
     </div>
   </div>
