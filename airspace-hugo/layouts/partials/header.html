@@ -13,7 +13,9 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
-              <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" width="{{site.Params.logo_width}}" class="img-responsive">
+              <!-- <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" width="{{site.Params.logo_width}}" class="img-responsive"> -->
+              <img src="{{ site.Params.logoOnly | absURL }}" alt="{{ site.Title }}" class="img-responsive logo logo--img">
+              <img src="{{ site.Params.logoTextOnly | absURL }}" alt="{{ site.Title }}" class="img-responsive logo logo--text">
             </a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->

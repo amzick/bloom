@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "http://examplesite.org"
-title = "Airspace | Creative Agency Hugo Template"
+title = "Bloom Construction Consulting"
 theme = "airspace-hugo"
 themesDir = "../.."
 # post pagination
@@ -76,6 +76,8 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 #################### default parameters ################################
 [params]
 logo = "images/SVGLogo.svg"
+logoOnly = "images/SVGLogoOnly.svg"
+logoTextOnly = "images/SVGTextOnly.svg"
 logo_width = "150px"
 # Meta data
 description = "This is meta description"

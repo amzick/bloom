@@ -55,8 +55,8 @@ cta:
   content : "“No matter how brilliant your mind or strategy, if you're playing a solo game you'll always lose out to a team”<br/>-Reid Hoffman"
   button:
     enable : true
-    label : "Contact us"
-    link : "contact"
+    label : "View Projects"
+    link : "/projects"
 
 ############################# Funfacts ###############################
 funfacts:

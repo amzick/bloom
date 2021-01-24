@@ -3,11 +3,40 @@
   padding: 20px 0;
 
   .navbar-brand {
-    padding-top: 5px;
+    height: unset;
+    padding: 0;
+
+    @media (max-width: 845px) {
+      width: 80%;
+    }
+
+    @media (max-width: 767px) {
+      border-color: pink;
+      width: 90%;
+    }
+
+    @media (max-width: 621px) {
+      width: unset;
+    }
 
     img {
-      margin: 10px 0;
-      width: 380px;
+      margin: 0 0 10px;
+    }
+
+    .logo--img {
+      width: 95px;
+      display: inline-block;
+    }
+
+    .logo--text {
+      width: 600px;
+      display: inline-block;
+      @media (max-width: 845px) {
+        width: 80%;
+      }
+      @media (max-width: 621px) {
+        display: none;
+      }
     }
   }
 
@@ -19,12 +48,12 @@
     position: relative;
 
     .navbar-nav {
-      @include mobile-only {
-        padding-top: 70px; // sm - tablet
-      }
+      display: flex;
+      flex-direction: column;
+
       @include desktop {
         position: absolute;
-        top: 60%;
+        top: 0;
         right: 0;
         margin: 0;
         padding: 0;
@@ -33,11 +62,11 @@
       > li {
         > a {
           color: $header-nav-link;
-          padding: 10px 15px;
+          padding: 10px 15px 0;
 
           font : {
             weight: 500;
-            size: 14px;
+            size: 18px;
           }
 
           text-transform: uppercase;
@@ -46,6 +75,12 @@
           &:focus {
             color: $header-nav-link--hover;
             background: transparent;
+          }
+        }
+
+        &:first-child {
+          a {
+            padding-top: 0;
           }
         }
 
@@ -84,39 +119,46 @@
 // ensure nav collapses at 768px, didnt for some reason
 // https://silvawebdesigns.com/how-to-change-the-bootstrap-navbar-breakpoint/
 
+.navbar-header {
+  float: none;
+
+  @media (min-width: 768px) and (max-width: 768px) {
+    // weird hack for nav jumping around I couldn't figure out
+    height: 0;
+  }
+}
+
 @include mobile-only {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-		top: 0;
-		border-width: 0 0 1px;
-	}
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-		margin-top: 7.5px;
-	}
-	.navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-  		display:block !important;
-	}
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
 }

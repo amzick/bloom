@@ -1,6 +1,7 @@
 .portfolio-work {
 	padding: 80px 0;
 	background: $body-bg;
+	min-height: 675px;
 
 	.container {
 		@include tablet-only {
