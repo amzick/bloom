@@ -1,6 +1,7 @@
 {
-    "name": "",
+    "name": "Bloom Construction Consulting",
     "short_name": "",
+    "description": "Learn more about what Bloom Construction Consulting can do for you.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +14,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#32769A",
+    "background_color": "#F4F5F5",
     "display": "standalone"
 }

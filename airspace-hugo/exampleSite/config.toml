@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
+baseURL = "https://www.bloomconstructionconsulting.com"
 title = "Bloom Construction Consulting"
 theme = "airspace-hugo"
 themesDir = "../.."
@@ -80,7 +80,7 @@ logoOnly = "images/SVGLogoOnly.svg"
 logoTextOnly = "images/SVGTextOnly.svg"
 logo_width = "150px"
 # Meta data
-description = "This is meta description"
+description = "Learn more about what Bloom Construction Consulting can do for you."
 author = "@amzick"
 # Contact Information
 phone = "919.802-3198"
