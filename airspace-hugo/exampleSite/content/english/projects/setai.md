@@ -1,7 +1,7 @@
 ---
 title: "The Setai Hotel and Residences"
 location: "Miami, FL"
-description: "Florensics - glass rails"
+description: "Forensics - glass rails"
 draft: false
 image : "images/buildings/setai_1599x899.jpg"
 bg_image : "images/buildings/setai_1599x899.jpg"

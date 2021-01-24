@@ -1,7 +1,7 @@
 ---
 title: "Logan Airport"
 location: "Boston, MA"
-description: "Engineering - Curtain Wall"
+description: "Engineering - ACM Metal Panels"
 draft: false
 image : "images/buildings/logan_1599x899.jpg"
 bg_image : "images/buildings/logan_1599x899.jpg"
