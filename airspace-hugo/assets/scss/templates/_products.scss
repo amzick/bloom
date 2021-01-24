@@ -132,7 +132,7 @@
       width: 100%;
     }
 
-    @include tablet {
+    @include mobile-only {
       width: 100%;
     }
   }
@@ -166,7 +166,7 @@
             margin-top: 15px;
           }
 
-          @include tablet {
+          @include mobile-only {
             margin-top: 15px;
           }
         }

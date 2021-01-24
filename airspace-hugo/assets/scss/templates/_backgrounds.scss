@@ -3,7 +3,7 @@
 	// background-repeat: no-repeat;
 	// background-attachment: fixed;
 
-	@include tablet {
+	@include mobile-only {
 		background-attachment: scroll;
 	}
 }
@@ -12,7 +12,11 @@
 	// background-size: cover;
 	// background-attachment: fixed;
 
-	@include tablet {
+	@include mobile-only {
 		background-attachment: scroll;
+	}
+
+	@media (min-width: 1576px) {
+		background-size: cover;
 	}
 }

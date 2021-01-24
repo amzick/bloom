@@ -13,7 +13,7 @@
 			padding: 10px 20px;
 			border: 1px solid $border-color;
 
-			@include tablet {
+			@include mobile-only {
 				padding: 10px 15px;
 			}
 
@@ -21,7 +21,7 @@
 				padding: 10px 5px;
 			}
 
-			@include mobile-xs {
+			@mixin mobile-xs-only {
 				padding: 10px 5px;
 				font-size: 12px;
 			}

@@ -19,10 +19,10 @@
     position: relative;
 
     .navbar-nav {
-      @include tablet {
+      @include mobile-only {
         padding-top: 70px; // sm - tablet
       }
-      @include desktop-min {
+      @include desktop {
         position: absolute;
         top: 60%;
         right: 0;
@@ -84,7 +84,7 @@
 // ensure nav collapses at 768px, didnt for some reason
 // https://silvawebdesigns.com/how-to-change-the-bootstrap-navbar-breakpoint/
 
-@include tablet {
+@include mobile-only {
     .navbar-header {
         float: none;
     }

@@ -14,7 +14,7 @@
 	}
 
 	p {
-		color: $feature-link;
+		color: $feature-graph;
 		margin-bottom: 20px;
 	}
 
@@ -22,5 +22,18 @@
 		background: $primary-color;
 		color: $white;
 		padding: 10px 20px;
+		transition: all .2s ease;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background: $btn-bg--hover;
+		}
+	}
+}
+
+.second-feature-content {
+	h2 {
+		color: $white;
 	}
 }

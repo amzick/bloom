@@ -33,6 +33,7 @@
 		padding: 0;
 
 		img {
+			border: 1px solid $midnight;
 			width: 100%;
 			height: auto;
 		}
@@ -42,7 +43,7 @@
 				visibility: visible;
 				opacity: 0.8;
 				background: $white;
-				// background: $overly-background;
+				// background: $overlay-background;
 			}
 
 			.portfolio-content {
@@ -62,10 +63,14 @@
 		width: 100%;
 		top: 0;
 		left: 0;
-		background: $overly-background;
+		background: $overlay-background;
 		// visibility: hidden;
 		opacity: 0.8;
 		transition: .3s ease;
+
+		@include desktop {
+			min-height: 221px;
+		}
 	}
 
 	&-content {
@@ -77,6 +82,7 @@
 		text-align: center;
 		padding: 20px;
 		transition: inherit;
+		height: 100%;
 
 		* {
 			color: $white;
@@ -127,3 +133,4 @@
 		}
 	}
 }
+

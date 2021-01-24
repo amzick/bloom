@@ -1,5 +1,5 @@
 /*=== MEDIA QUERY ===*/
-@mixin mobile-xs{
+@mixin mobile-xs-only {
   @media(max-width:400px){
     @content;
   }
@@ -9,13 +9,13 @@
     @content;
   }
 }
-@mixin tablet{
-  @media(max-width:768px){
+@mixin mobile-only {
+  @media(max-width:767px){
     @content;
   }
 }
-@mixin desktop{
-  @media(max-width:1024px){
+@mixin tablet-only {
+  @media(max-width:1023px){
     @content;
   }
 }
@@ -24,12 +24,12 @@
     @content;
   }
 }
-@mixin tablet-min{
-  @media(min-width:481px) {
+@mixin tablet {
+  @media(min-width:768px) {
     @content;
   }
 }
-@mixin desktop-min{
+@mixin desktop {
   @media(min-width:769px) {
     @content;
   }

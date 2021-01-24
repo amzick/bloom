@@ -160,7 +160,7 @@ weight = 1
 
 [[Languages.en.menu.main]]
 name = "About Us"
-URL = "about"
+URL = "/#about"
 weight = 2
 
 [[Languages.en.menu.main]]
@@ -175,37 +175,27 @@ weight = 4
   
 [[Languages.en.menu.main]]
 name = "Contact"
-URL = "contact"
+URL = "/#contact"
 weight = 6
 
 
 # footer menu
 [[Languages.en.menu.footer]]
 name = "About"
-URL = "about"
+URL = "/#about"
 weight = 1
 
 [[Languages.en.menu.footer]]
-name = "Project"
-URL = "project"
+name = "Projects"
+URL = "projects"
 weight = 2
 
 [[Languages.en.menu.footer]]
-name = "Service"
-URL = "service"
+name = "Services"
+URL = "/#services"
 weight = 3
 
 [[Languages.en.menu.footer]]
-name = "Pricing"
-URL = "pricing"
-weight = 4
-
-[[Languages.en.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 5
-
-[[Languages.en.menu.footer]]
 name = "Contact"
-URL = "contact"
+URL = "/#contact"
 weight = 6

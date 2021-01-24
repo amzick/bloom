@@ -5,7 +5,7 @@ description: "Construction Consultant - Developers Representative, Site, Vendor,
 draft: false
 image : "images/buildings/federation-tower_1920x1080.png"
 bg_image : "images/buildings/federation-tower_1920x1080.png"
-category: "Federation"
+category: "Mixed Use"
 information:
   # - label : "Client"
   #   info : "Jannie Kelonsky"

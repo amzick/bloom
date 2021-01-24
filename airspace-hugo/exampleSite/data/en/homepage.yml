@@ -5,6 +5,7 @@ banner:
   bg_overlay : true
   title : "Bloom Construction Consulting"
   content : "“Coming Together is a Beginning,<br />Staying Together is Progress<br/>and Working Together is Success.”<br/><br/>—Henry Ford"
+  # content : "“Coming Together is a Beginning, Staying Together is Progress and Working Together is Success.”<br/><br/>—Henry Ford"
   button:
     enable : true
     label : "Discover Our Work"
@@ -16,15 +17,14 @@ about:
   title : "About Us"
   description : "Edward Bloom - Owner and President"
   content : "With 38 years’ experience within the Commercial Construction Industry and focused on the Exterior Envelope trade. With extensive experience in System Design, Fabrication, Engineering, Project Management, Field Coordination and Installation. Including International experience as an Exterior Envelope Consultant in Building System Forensics and Project Management for Building Developers and General Contractors.<br/>Mr. Bloom has years of experience in the above along with years of professional contacts."
-  image : "images/wrapper-img.png"
-  image : "https://dummyimage.com/559x532/f4f5f5/010400.png&text=A:+559x532"
+  image : "images/100-11th_800x1230.jpg"
 
 
 ######################### Portfolio ###############################
 portfolio:
   enable : true
-  bg_image : "images/featue-bg.jpg"
-  bg_image: "https://dummyimage.com/2560x1564/f4f5f5/010400.png&text=B:+2650x1564"
+  bg_image: "images/scaffolding_3648x2385.jpg"
+  bg_overlay: true
   title : "A BESPOKE APPROACH TO YOUR PROJECT"
   content : "
   We Listen -- to what our clients articulate.
@@ -50,8 +50,7 @@ service:
 ############################ call to action ###########################
 cta:
   enable : true
-  # bg_image : "images/call-to-action-bg.jpg"
-  bg_image : "https://dummyimage.com/2141x333/f4f5f5/010400.png&text=C:+2141x333"
+  bg_image : "images/lds_md.jpg"
   title : "We are the conduit for making our partners' visions a reality."
   content : "“No matter how brilliant your mind or strategy, if you're playing a solo game you'll always lose out to a team”<br/>-Reid Hoffman"
   button:
