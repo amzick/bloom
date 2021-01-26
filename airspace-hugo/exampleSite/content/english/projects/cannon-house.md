@@ -1,7 +1,7 @@
 ---
 title: "Cannon House Additions"
 location: "Washington, DC"
-description: "Project Management - Blast Curtain Wall, Interiror Glazing"
+description: "Project Management - Blast Curtain Wall, Interior Glazing"
 draft: false
 image : "images/buildings/cannon-house_1278-719.jpg"
 bg_image : "images/buildings/cannon-house_1278-719.jpg"

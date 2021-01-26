@@ -1,7 +1,7 @@
 ---
 title: "Riva Pointe Condominiums"
 location: "Weehawken, NJ"
-description: "Florensics - Exterior Façade"
+description: "Forensics - Exterior Façade"
 draft: false
 image : "images/buildings/riva-pointe_1602x901.png"
 bg_image : "images/buildings/riva-pointe_1602x901.png"

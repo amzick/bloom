@@ -4,7 +4,7 @@ location: "Nashville, TN"
 description: "Pre-Construction system design development – Metal Panels"
 draft: false
 image : "images/buildings/hc_639x359.jpg"
-bg_image : "images/buildings/hc_639x359.jpg"
+bg_image : "images/buildings/hc2.png"
 category: "Residential"
 information:
   # - label : "Client"

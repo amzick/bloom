@@ -1,7 +1,7 @@
 ---
 title: "Stony Brook Medical Center"
 location: "Long Island, NY"
-description: "Florensics - Exterior Glazing"
+description: "Forensics - Exterior Glazing"
 draft: false
 image : "images/buildings/suny_2690x1513.jpg"
 bg_image : "images/buildings/suny_2690x1513.jpg"
