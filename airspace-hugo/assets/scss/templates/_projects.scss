@@ -57,7 +57,7 @@
 		position: relative;
 		padding: 0;
 
-		img {
+		> img {
 			border: 1px solid $midnight;
 			width: 100%;
 			height: auto;
@@ -77,6 +77,13 @@
 				* {
 					color: $steel;
 					color: $sinopia;
+				}
+
+				.icon {
+					// filter: invert(1);
+					// stupid hack but im tired
+					// https://stackoverflow.com/questions/24933430/img-src-svg-changing-the-styles-with-css
+					content:url("/images/search-inverted.svg");
 				}
 			}
 		}
@@ -130,6 +137,10 @@
 				font-size: 30px;
 			}
 
+			img, svg {
+				width: 30px;
+			}
+
 			&.h3 {
 				margin-top: 0;
 			}
@@ -144,6 +155,10 @@
 				i, glyph {
 					font-size: 20px;
 				}
+
+				img, svg {
+					width: 20px;
+				}
 				margin: 5px;
 			}
 		}
@@ -157,6 +172,9 @@
 				}
 				i, glyph {
 					font-size: 20px;
+				}
+				img, svg {
+					width: 20px;
 				}
 				margin-bottom: 5px;
 			}
