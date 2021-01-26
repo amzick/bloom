@@ -126,7 +126,7 @@
 			display: block;
 			transition: .2s ease;
 
-			i {
+			i, glyph {
 				font-size: 30px;
 			}
 
@@ -141,7 +141,7 @@
 				&.h3 {
 					font-size: 18px;
 				}
-				i {
+				i, glyph {
 					font-size: 20px;
 				}
 				margin: 5px;
@@ -155,7 +155,7 @@
 				&.h3 {
 					font-size: 18px;
 				}
-				i {
+				i, glyph {
 					font-size: 20px;
 				}
 				margin-bottom: 5px;
