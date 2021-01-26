@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = ""
+baseURL = "https://inspiring-swanson-afdc6e.netlify.app"
 title = "Bloom Construction Consulting"
 theme = "airspace-hugo"
 themesDir = "../.."
