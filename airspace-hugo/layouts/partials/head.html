@@ -16,7 +16,7 @@
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css}}
-  <link rel="stylesheet" href="{{ .link | baseURL }}" {{.attributes | safeHTMLAttr}}>
+  <link rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}>
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
