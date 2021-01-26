@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://www.bloomconstructionconsulting.com"
+baseURL = ""
 title = "Bloom Construction Consulting"
 theme = "airspace-hugo"
 themesDir = "../.."
