@@ -29,11 +29,11 @@
           <div class="row shuffle-wrapper">
             {{ range .Data.Pages }}
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
-              <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+              <img src="{{ .Params.Image | relURL }}" aria-hidden="true" alt="{{ .Title }}">
               <div class="portfolio-hover">
                 <div class="portfolio-content">
                   <!-- <a href="{{ .Params.Image | relURL }}" class="portfolio-popup" data-caption="{{ .Params.Caption }}"><i class="icon ion-search"></i></a> -->
-                  <a href="{{ .Params.BG_Image | relURL }}" class="portfolio-popup" data-caption="{{ .Params.Caption }}"><img class="icon ion-search" src="/images/search.svg"></img></a>
+                  <a href="{{ .Params.BG_Image | relURL }}" class="portfolio-popup" data-caption="{{ .Params.Caption }}"><img class="icon ion-search" src="/images/search.svg" alt="zoom"></img></a>
                   <!-- <a class="h3" href="{{ .Permalink }}">{{ .Title }}</a> -->
                   <a class="h3">{{ .Title }}</a>
                   <p>{{ .Params.Location }}</p>

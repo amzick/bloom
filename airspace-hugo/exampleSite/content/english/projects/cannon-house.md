@@ -3,9 +3,9 @@ title: "Cannon House Additions"
 location: "Washington, DC"
 description: "Project Management - Blast Curtain Wall, Interior Glazing"
 draft: false
-image : "images/buildings/cannon-house_1278-719.jpg"
-bg_image : "images/buildings/cannon-house_1278-719.jpg"
-caption: "RebelAt at the English Wikipedia, <a href='http://creativecommons.org/licenses/by-sa/3.0/'>CC BY-SA 3.0</a>, via Wikimedia Commons"
+image : "images/buildings/ch_1723x969.jpg"
+bg_image : "images/buildings/ch_1723x969.jpg"
+# caption: "RebelAt at the English Wikipedia, <a href='http://creativecommons.org/licenses/by-sa/3.0/'>CC BY-SA 3.0</a>, via Wikimedia Commons"
 category: "Government"
 information:
   # - label : "Client"
